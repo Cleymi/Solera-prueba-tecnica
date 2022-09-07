@@ -9,6 +9,7 @@ import {
 } from '../../services/WService';
 import './servicios.css';
 import { showNotify } from '../../hooks/useToasty';
+import { showAlert } from '../../hooks/useAlert';
 
 export default function Servicios() {
   const location = useLocation();
@@ -177,7 +178,7 @@ export default function Servicios() {
                   <button
                     type="button"
                     className="btn btn-outline-danger btn-sm ms-2"
-                    onClick={() => deleteService(service.id)}
+                    onClick={() => showAlert(() => deleteService(service.id))}
                   >
                     Eliminar
                   </button>
