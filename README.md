@@ -35,7 +35,7 @@ https://reactrouter.com/en/main
 https://github.com/fkhadra/react-toastify#readme
 `react-toastify`\
 https://axios-http.com/docs/intro
-`axios`
+`axios`\
 https://sweetalert2.github.io
 `sweetalert2`
 
