@@ -1,0 +1,9 @@
+body {
+  background-color: #042c2e;
+}
+
+.toasty {
+  position: absolute;
+  right   : 10px;
+  top     : 10px;
+}
