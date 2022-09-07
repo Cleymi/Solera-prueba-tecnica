@@ -2,7 +2,7 @@ import Swal from 'sweetalert2';
 
 const showAlert = async (execAction) => {
   Swal.fire({
-    title: '¿Esta seguro de eliminar?',
+    title: '¿Está seguro de eliminar?',
     text: 'No podrás revertir esto!',
     icon: 'warning',
     showCancelButton: true,
